@@ -43,7 +43,7 @@ const Intro = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.4, delay: 1.4 }}
-        className="text-3xl text-center z-[1] overflow-hidden"
+        className="text-3xl text-center z-[1] overflow-hidden text-gray-900 dark:text-white"
       >
         {`I'm a frontend developer`}
       </m.p>
