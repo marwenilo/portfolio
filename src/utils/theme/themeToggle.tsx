@@ -1,12 +1,10 @@
-import React from 'react';
+import {useContext} from 'react';
 import { HiMoon, HiSun } from 'react-icons/hi';
 import { ThemeContextInterface } from '../../@types/themeTypes';
 import { ThemeContext } from './themeContext';
 
 const Toggle = () => {
-  const { theme, setTheme } = React.useContext(
-    ThemeContext
-  ) as ThemeContextInterface;
+  const { theme, setTheme } = useContext(ThemeContext) as ThemeContextInterface;
 
   return (
     <div className="transition duration-500 ease-in-out rounded-full p-2">

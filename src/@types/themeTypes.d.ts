@@ -4,8 +4,8 @@ export interface ThemeContextInterface {
 }
 export interface ThemeProviderProps {
   initialTheme?:string, 
-  children?: React.ReactNode;
+  children: React.ReactNode;
 };
 export interface BackgroundProps {
-   children?: React.ReactNode; //ReactNode allows multiple elements, strings, numbers, fragments, portals,
+   children: React.ReactNode; //ReactNode allows multiple elements, strings, numbers, fragments, portals,
 };

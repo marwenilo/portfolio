@@ -3,6 +3,7 @@ import {
   ThemeContextInterface,
   ThemeProviderProps,
 } from '../../@types/themeTypes';
+
 const getInitialTheme = () => {
   if (typeof window !== 'undefined' && window.localStorage) {
     const storedPrefs = window.localStorage.getItem('color-theme');
