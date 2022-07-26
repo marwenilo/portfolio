@@ -1,5 +1,4 @@
 import { useRef } from 'react';
-
 import { LazyMotion, domAnimation } from 'framer-motion';
 import Intro from './components/Intro';
 const App = () => {

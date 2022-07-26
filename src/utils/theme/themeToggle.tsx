@@ -7,7 +7,7 @@ const Toggle = () => {
   const { theme, setTheme } = useContext(ThemeContext) as ThemeContextInterface;
 
   return (
-    <div className="transition duration-500 ease-in-out rounded-full p-2 z-20">
+    <div className="transition duration-500 ease-in-out rounded-full p-2">
       {theme === 'dark' ? (
         <HiSun
           onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}

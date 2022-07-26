@@ -26,7 +26,7 @@ root.render(
       <ThemeProvider>
         <Background>
           <main>
-            <div className="absolute right-0 top-0 mr-4 mt-4 md:mr-6 md:mt-6">
+            <div className="absolute right-0 top-0 mr-4 mt-4 md:mr-6 md:mt-6 z-40">
               <Toggle />
             </div>
             <App />
