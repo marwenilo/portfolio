@@ -9,3 +9,7 @@ export interface ThemeProviderProps {
 export interface BackgroundProps {
    children: React.ReactNode; //ReactNode allows multiple elements, strings, numbers, fragments, portals,
 };
+
+export interface ScrollProviderProps {
+   children: React.ReactNode; //ReactNode allows multiple elements, strings, numbers, fragments, portals,
+};
