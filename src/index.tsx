@@ -6,23 +6,13 @@ import App from './App';
 import { ThemeProvider } from './utils/theme/themeContext';
 import Background from './utils/theme/background';
 import Toggle from './utils/theme/themeToggle';
-import { LocomotiveScrollProvider } from 'react-locomotive-scroll';
+import LocomotiveScroll from './utils/locomotiveScroll';
 
 const root = createRoot(document.getElementById('root') as HTMLElement);
 
 root.render(
-
   <StrictMode>
-    <LocomotiveScrollProvider
-      options={{
-        smooth: true,
-        tablet: {
-          smooth: true,
-          breakpoint: 768,
-        },
-      }}
-      watch={[]}
-    >
+    <LocomotiveScroll>
       <ThemeProvider>
         <Background>
           <main>
@@ -33,6 +23,6 @@ root.render(
           </main>
         </Background>
       </ThemeProvider>
-    </LocomotiveScrollProvider>
+    </LocomotiveScroll>
   </StrictMode>
 );
